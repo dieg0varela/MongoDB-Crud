@@ -5,3 +5,4 @@ This repo contains a simple CRUD for mongoDB made in node js using express to ma
 NOTES:
 - Generate an .env file in the root of the project and set the variable "MONGODB_URL" with the connection string
 - This CRUD originaly was implemented using a MongoDB as a service on the cloud, for that reason the connection needs an tls certificate, if it´s not the case delete those things in mongoose.connect()
+- To use this app is needed install the dependencies, to do this run "npm install". This note is for me in the case I forgot how to install the dependencies
